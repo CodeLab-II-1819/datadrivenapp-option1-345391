@@ -4,12 +4,11 @@
 
 class ofApp : public ofBaseApp{
 
-	public:
-		void setup();
-		void update();
-		void draw();
+public:
+	void setup();
+	void update();
+	void draw();
 
-		ofImage twitterlogo;//create a varible for a twitter logo image.
-		ofTrueTypeFont myfont;
-		
+	ofImage twitterlogo;//create a varible for a twitter logo image.
+	
 };
